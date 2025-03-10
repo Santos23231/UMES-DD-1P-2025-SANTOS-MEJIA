@@ -1,16 +1,59 @@
-.logo {
-    width: 10px;
-    height: auto;
+header {
+    background-color: white;
+    height: 10vh;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    transition: background-color 1s, color 1s;
+}
+
+header:hover {
+    background-color: black;
+    color: white;
+}
+
+header .logo {
+    height: 80%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 10vh; 
+    padding-bottom: 50px; 
+}
+
+.page {
+    flex: 1;
+    padding: 20px;
 }
 
 .nombre-container {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
-    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
 }
 
-.nombre, .desarrollo {
-    margin: 0;
+.nombre {
+    font-size: 2em;
+    font-weight: bold;
 }

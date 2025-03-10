@@ -23,6 +23,14 @@ header .logo {
     height: 80%;
 }
 
+header h1 {
+    margin: 0;
+    text-transform: uppercase;
+    flex-grow: 1;
+    text-align: right;
+    padding-left: 10px; /* Ajusta el valor según sea necesario */
+}
+
 footer {
     background-color: black;
     color: white;
